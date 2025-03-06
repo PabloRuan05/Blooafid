@@ -1,0 +1,21 @@
+section.catalogo {
+  padding: 1rem;
+
+  h1.title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .container {
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    gap: 1rem;
+    & > * {
+      flex: 0 400px;
+    }
+  }
+}

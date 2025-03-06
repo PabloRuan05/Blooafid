@@ -1,0 +1,47 @@
+section.duvidas {
+  background-color: rgb(0, 0, 0);
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+    color: rgb(18, 218, 18);
+    font-size: 2rem;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(18, 218, 18);
+  }
+
+  div.textd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    gap: 1.2rem;
+    padding: 1.5rem;
+
+    & * {
+      flex: 1 200px;
+    }
+
+    h2 {
+      margin-bottom: 1.2rem;
+      color: rgb(255, 255, 255);
+    }
+    p {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      color: rgb(255, 255, 255);
+      strong {
+        font-size: 1.1rem;
+        background-color: rgb(0, 0, 0);
+        color: rgb(18, 218, 18);
+      }
+    }
+  }
+}
